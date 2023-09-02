@@ -1,0 +1,4 @@
+vhdl work "reg.vhd"
+vhdl work "mux2X1.vhd"
+vhdl work "CONV_7SEG.vhd"
+vhdl work "display_controller.vhd"

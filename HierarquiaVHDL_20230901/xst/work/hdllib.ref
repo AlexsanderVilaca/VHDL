@@ -1,0 +1,8 @@
+EN display_controller NULL C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/display_controller.vhd sub00/vhpl00 1693616149
+AR reg behavioral C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/reg.vhd sub00/vhpl05 1693616144
+AR display_controller behavioral C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/display_controller.vhd sub00/vhpl01 1693616150
+EN mux2x1 NULL C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/mux2X1.vhd sub00/vhpl02 1693616145
+AR mux2x1 behavioral C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/mux2X1.vhd sub00/vhpl03 1693616146
+AR conv_7seg behavioral C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/CONV_7SEG.vhd sub00/vhpl07 1693616148
+EN conv_7seg NULL C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/CONV_7SEG.vhd sub00/vhpl06 1693616147
+EN reg NULL C:/Users/081200032/Desktop/se/HierarquiaVHDL_20230901/reg.vhd sub00/vhpl04 1693616143
