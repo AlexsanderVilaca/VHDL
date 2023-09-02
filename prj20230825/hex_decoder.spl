@@ -1,0 +1,5 @@
+[Inputs]
+=INPUT[3:0]=
+[Outputs]
+=SAIDA[7:0]=
+[BiDir]

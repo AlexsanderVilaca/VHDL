@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\081200032\Desktop\se\mux\hex_decoder.ncd
+OUTFILE=C:\Users\081200032\Desktop\se\mux\hex_decoder.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\081200032\Desktop\se\mux
+LICENSE=WebPack
+USER_INFO=212138671_0_0_977

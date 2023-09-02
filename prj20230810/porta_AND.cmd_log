@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/prj_20230810/porta_AND.xst" -ofn "C:/Users/081200032/Desktop/se/prj_20230810/porta_AND.syr" 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/prj_20230810/porta_AND.xst" -ofn "C:/Users/081200032/Desktop/se/prj_20230810/porta_AND.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 porta_AND.ngc porta_AND.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o porta_AND_map.ncd porta_AND.ngd porta_AND.pcf 
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o porta_AND_map.ncd porta_AND.ngd porta_AND.pcf 
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o porta_AND_map.ncd porta_AND.ngd porta_AND.pcf 
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o porta_AND_map.ncd porta_AND.ngd porta_AND.pcf 

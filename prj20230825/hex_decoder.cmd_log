@@ -1,0 +1,46 @@
+vhdtdtfi -lib work hex_decoder.vhd -prj mux -o hex_decoder.spl -module hex_decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+vhdtdtfi -lib work hex_decoder.vhd -prj mux -o hex_decoder.spl -module hex_decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e hex_decoder.spl C:/Users/081200032/Desktop/se/mux/hex_decoder.sym 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+par -w -intstyle ise -ol high -t 1 hex_decoder_map.ncd hex_decoder.ncd hex_decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_decoder.twx hex_decoder.ncd -o hex_decoder.twr hex_decoder.pcf -ucf CONSTANTS.ucf 
+bitgen -intstyle ise -f hex_decoder.ut hex_decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+par -w -intstyle ise -ol high -t 1 hex_decoder_map.ncd hex_decoder.ncd hex_decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_decoder.twx hex_decoder.ncd -o hex_decoder.twr hex_decoder.pcf -ucf CONSTANTS.ucf 
+bitgen -intstyle ise -f hex_decoder.ut hex_decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+par -w -intstyle ise -ol high -t 1 hex_decoder_map.ncd hex_decoder.ncd hex_decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_decoder.twx hex_decoder.ncd -o hex_decoder.twr hex_decoder.pcf -ucf CONSTANTS.ucf 
+bitgen -intstyle ise -f hex_decoder.ut hex_decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+par -w -intstyle ise -ol high -t 1 hex_decoder_map.ncd hex_decoder.ncd hex_decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_decoder.twx hex_decoder.ncd -o hex_decoder.twr hex_decoder.pcf -ucf CONSTANTS.ucf 
+bitgen -intstyle ise -f hex_decoder.ut hex_decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/081200032/Desktop/se/mux/hex_decoder.xst" -ofn "C:/Users/081200032/Desktop/se/mux/hex_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CONSTANTS.ucf -p xc3s100e-cp132-5 hex_decoder.ngc hex_decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hex_decoder_map.ncd hex_decoder.ngd hex_decoder.pcf 
+par -w -intstyle ise -ol high -t 1 hex_decoder_map.ncd hex_decoder.ncd hex_decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_decoder.twx hex_decoder.ncd -o hex_decoder.twr hex_decoder.pcf -ucf CONSTANTS.ucf 
+bitgen -intstyle ise -f hex_decoder.ut hex_decoder.ncd 
