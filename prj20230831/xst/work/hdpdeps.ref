@@ -1,0 +1,20 @@
+V3 11
+FL C:/Users/081200032/Desktop/se/projeto20230831/azul.vhd 2023/08/31.22:08:18 P.20131013
+EN work/azul 1693531333 FL C:/Users/081200032/Desktop/se/projeto20230831/azul.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/azul/Behavioral 1693531334 \
+      FL C:/Users/081200032/Desktop/se/projeto20230831/azul.vhd EN work/azul 1693531333
+FL C:/Users/081200032/Desktop/se/projeto20230831/hierarquia.vhd 2023/08/31.22:17:49 P.20131013
+EN work/hierarquia 1693531337 \
+      FL C:/Users/081200032/Desktop/se/projeto20230831/hierarquia.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hierarquia/Behavioral 1693531338 \
+      FL C:/Users/081200032/Desktop/se/projeto20230831/hierarquia.vhd \
+      EN work/hierarquia 1693531337 CP azul CP vermelho
+FL C:/Users/081200032/Desktop/se/projeto20230831/vermelho.vhd 2023/08/31.22:21:28 P.20131013
+EN work/vermelho 1693531335 \
+      FL C:/Users/081200032/Desktop/se/projeto20230831/vermelho.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/vermelho/Behavioral 1693531336 \
+      FL C:/Users/081200032/Desktop/se/projeto20230831/vermelho.vhd \
+      EN work/vermelho 1693531335

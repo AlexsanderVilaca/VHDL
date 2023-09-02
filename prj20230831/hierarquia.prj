@@ -1,0 +1,3 @@
+vhdl work "vermelho.vhd"
+vhdl work "azul.vhd"
+vhdl work "hierarquia.vhd"
